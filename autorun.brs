@@ -589,7 +589,7 @@ Function InitialisePlayers()
 	m.v1.SetRectangle(m.r1)
 	'm.v1.SetViewMode(0)
 	'm.v1.SetViewMode(m.viewmode_scale)
-	m.v1.SetLoopMode(1)
+	m.v1.SetLoopMode(0)
 	if not m.series5 then
 		m.v1.SetTransform(m.series4_and_older_orientation)
 	end if
